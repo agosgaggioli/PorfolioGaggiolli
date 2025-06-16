@@ -12,11 +12,22 @@ html, body {
 }  
 
 ul, ol {  
-    list-style: none;  
+    list-style: none ;  
 }  
-
+button {
+    all: unset; /* Limpia todos los estilos por defecto */
+    cursor: pointer;
+    background-color: transparent;
+    color: inherit;
+    text-decoration: none !important;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+    margin: 0;
+  }
 a {  
-    text-decoration: none;  
+    text-decoration: none !important;  
     color: inherit;  
 }  
 
