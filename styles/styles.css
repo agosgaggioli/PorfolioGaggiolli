@@ -399,13 +399,14 @@ font-size: 20px;
   }
   
   .banner-img {
-    flex: 1 1 250px; /* permite que la imagen se mantenga en una columna */
+    display: none;
+    flex: 1 1 250px; 
     display: flex;
     justify-content: center;
   }
   
-  .banner-texto {
-    flex: 1 1 300px; /* mantiene el texto a un lado */
+  .banner-txt {
+    flex: 1 1 300px; 
     display: flex;
     flex-direction: column;
     align-items: center;
