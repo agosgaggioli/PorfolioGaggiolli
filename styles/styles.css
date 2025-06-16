@@ -13,6 +13,7 @@ header{
     filter: brightness(0.85) contrast(1.0); 
     filter: drop-shadow(0 0 15px rgba(65, 65, 65, 0.5));
 }
+
 .decoracion{
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
@@ -448,7 +449,10 @@ font-size: 20px;
     flex-direction: column;
     padding: 20px;
   }
-
+  .btn-sobre-mi {
+    display: block;
+    margin: 20px auto; /* Esto lo centra horizontalmente */
+  }
   #carouselExample {
     width: 100% !important;
     max-width: 350px;
@@ -457,6 +461,17 @@ font-size: 20px;
   /* CONTACTO */
   .contacto {
     padding: 30px 10px;
+  }
+  .decoracion{
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+  
+    color: white;
   }
 
   .contacto-txt h4 {
