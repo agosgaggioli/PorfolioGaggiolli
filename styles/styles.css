@@ -402,6 +402,9 @@ font-size: 20px;
     display: none !important;
    
   }
+  .banner-header img{
+    display: none !important;
+  }
   
   .banner-txt {
     flex: 1 1 300px; 
